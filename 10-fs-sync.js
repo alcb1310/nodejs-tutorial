@@ -9,6 +9,6 @@ console.log(first, second)
 writeFileSync('./folder/result-sync.txt', `Here is the result : ${first}, ${second}`)
 
 // Create and append a file
-writeFileSync('./folder/result-sync.txt', `Here is the result : ${first}, ${second}\n`, {
+writeFileSync('./folder/result-sync.txt', `Here is the result : ${first}, ${second}`, {
     flag: 'a'
 })
